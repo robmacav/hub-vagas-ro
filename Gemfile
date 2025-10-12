@@ -17,6 +17,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 gem "selenium-webdriver", "4.36"
 
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
@@ -25,4 +26,5 @@ end
 
 group :development do
   gem "web-console"
+  gem "byebug", "12.0.0"
 end
