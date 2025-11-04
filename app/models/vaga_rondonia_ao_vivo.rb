@@ -1,0 +1,2 @@
+class VagaRondoniaAoVivo < ApplicationRecord
+end

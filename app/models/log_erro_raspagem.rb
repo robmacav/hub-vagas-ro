@@ -1,0 +1,2 @@
+class LogErroRaspagem < ApplicationRecord
+end
